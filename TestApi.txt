@@ -1,0 +1,14 @@
+Testing the API Gateway
+
+#guys use this only if you cant run project by id
+mvn spring-boot:run
+
+Start services
+Run Service1Application and Service2Application.
+Run ApiGatewayApplication.
+
+
+Hit API Gateway routes:
+
+http://localhost:8080/service1/hello → "Hello from Service 1!"
+http://localhost:8080/service2/hello → "Hello from Service 2!"
